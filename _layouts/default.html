@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="color-custom style-simple layout-full-width mobile-tb-left button-flat if-zoom no-content-padding header-modern minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80-1 menuo-right menuo-no-borders footer-copy-center nice-scroll">
+
+    <div id="Wrapper">
+        {% include header.html %}
+        <div id="Content">
+           <div class="content_wrapper clearfix">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+
+      {% include footer.html %}
+    </div>
+    </footer>
+    
+    {% include foot.html %}
+
+  </body>
+
+</html>
